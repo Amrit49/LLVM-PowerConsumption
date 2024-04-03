@@ -1,0 +1,111 @@
+Basic Block: 0
+      call void @_ZNSt8ios_base4InitC1Ev(%"class.std::ios_base::Init"* noundef nonnull align 1 dereferenceable(1) @_ZStL8__ioinit)
+      %1 = call i32 @__cxa_atexit(void (i8*)* bitcast (void (%"class.std::ios_base::Init"*)* @_ZNSt8ios_base4InitD1Ev to void (i8*)*), i8* getelementptr inbounds (%"class.std::ios_base::Init", %"class.std::ios_base::Init"* @_ZStL8__ioinit, i32 0, i32 0), i8* @__dso_handle) #3
+      ret void
+
+Basic Block: 1
+      %1 = alloca i32, align 4
+      %2 = alloca i32, align 4
+      %3 = alloca i32, align 4
+      %4 = alloca i32, align 4
+      %5 = alloca i32, align 4
+      %6 = alloca i32, align 4
+      %7 = alloca i32, align 4
+      %8 = alloca i32, align 4
+      store i32 0, i32* %1, align 4
+      store i32 10, i32* %2, align 4
+      %9 = load i32, i32* %2, align 4
+      %10 = icmp sgt i32 %9, 5
+      br i1 %10, label %11, label %14
+
+Basic Block: 2
+      %12 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) @_ZSt4cout, i8* noundef getelementptr inbounds ([26 x i8], [26 x i8]* @.str, i64 0, i64 0))
+      %13 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEPFRSoS_E(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %12, %"class.std::basic_ostream"* (%"class.std::basic_ostream"*)* noundef @_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_)
+      br label %17
+
+Basic Block: 3
+      %15 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) @_ZSt4cout, i8* noundef getelementptr inbounds ([35 x i8], [35 x i8]* @.str.1, i64 0, i64 0))
+      %16 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEPFRSoS_E(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %15, %"class.std::basic_ostream"* (%"class.std::basic_ostream"*)* noundef @_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_)
+      br label %17
+
+Basic Block: 4
+      store i32 0, i32* %3, align 4
+      br label %18
+
+Basic Block: 5
+      %19 = load i32, i32* %3, align 4
+      %20 = icmp slt i32 %19, 5
+      br i1 %20, label %21, label %39
+
+Basic Block: 6
+      %22 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) @_ZSt4cout, i8* noundef getelementptr inbounds ([23 x i8], [23 x i8]* @.str.2, i64 0, i64 0))
+      %23 = load i32, i32* %3, align 4
+      %24 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEi(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %22, i32 noundef %23)
+      %25 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEPFRSoS_E(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %24, %"class.std::basic_ostream"* (%"class.std::basic_ostream"*)* noundef @_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_)
+      %26 = load i32, i32* %3, align 4
+      %27 = add nsw i32 %26, 1
+      store i32 %27, i32* %3, align 4
+      store i32 0, i32* %4, align 4
+      br label %28
+
+Basic Block: 7
+      %29 = load i32, i32* %4, align 4
+      %30 = icmp slt i32 %29, 5
+      br i1 %30, label %31, label %38
+
+Basic Block: 8
+      %32 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) @_ZSt4cout, i8* noundef getelementptr inbounds ([23 x i8], [23 x i8]* @.str.2, i64 0, i64 0))
+      %33 = load i32, i32* %4, align 4
+      %34 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEi(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %32, i32 noundef %33)
+      %35 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEPFRSoS_E(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %34, %"class.std::basic_ostream"* (%"class.std::basic_ostream"*)* noundef @_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_)
+      %36 = load i32, i32* %4, align 4
+      %37 = add nsw i32 %36, 1
+      store i32 %37, i32* %4, align 4
+      br label %28, !llvm.loop !6
+
+Basic Block: 9
+      br label %18, !llvm.loop !8
+
+Basic Block: 10
+      store i32 0, i32* %5, align 4
+      br label %40
+
+Basic Block: 11
+      %41 = load i32, i32* %5, align 4
+      %42 = icmp slt i32 %41, 5
+      br i1 %42, label %43, label %51
+
+Basic Block: 12
+      %44 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) @_ZSt4cout, i8* noundef getelementptr inbounds ([21 x i8], [21 x i8]* @.str.3, i64 0, i64 0))
+      %45 = load i32, i32* %5, align 4
+      %46 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEi(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %44, i32 noundef %45)
+      %47 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEPFRSoS_E(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %46, %"class.std::basic_ostream"* (%"class.std::basic_ostream"*)* noundef @_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_)
+      br label %48
+
+Basic Block: 13
+      %49 = load i32, i32* %5, align 4
+      %50 = add nsw i32 %49, 1
+      store i32 %50, i32* %5, align 4
+      br label %40, !llvm.loop !9
+
+Basic Block: 14
+      store i32 5, i32* %6, align 4
+      store i32 3, i32* %7, align 4
+      %52 = load i32, i32* %6, align 4
+      %53 = load i32, i32* %7, align 4
+      %54 = mul nsw i32 %52, %53
+      %55 = load i32, i32* %6, align 4
+      %56 = load i32, i32* %7, align 4
+      %57 = sdiv i32 %55, %56
+      %58 = add nsw i32 %54, %57
+      store i32 %58, i32* %8, align 4
+      %59 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) @_ZSt4cout, i8* noundef getelementptr inbounds ([34 x i8], [34 x i8]* @.str.4, i64 0, i64 0))
+      %60 = load i32, i32* %8, align 4
+      %61 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEi(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %59, i32 noundef %60)
+      %62 = call noundef nonnull align 8 dereferenceable(8) %"class.std::basic_ostream"* @_ZNSolsEPFRSoS_E(%"class.std::basic_ostream"* noundef nonnull align 8 dereferenceable(8) %61, %"class.std::basic_ostream"* (%"class.std::basic_ostream"*)* noundef @_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_)
+      ret i32 0
+
+Basic Block: 15
+      call void @__cxx_global_var_init()
+      ret void
+

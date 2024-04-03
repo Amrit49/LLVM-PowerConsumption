@@ -1,0 +1,16 @@
+  Power Consumption for Basic Block 0: 21
+  Power Consumption for Basic Block 1: 83
+  Power Consumption for Basic Block 2: 21
+  Power Consumption for Basic Block 3: 21
+  Power Consumption for Basic Block 4: 15
+  Power Consumption for Basic Block 5: 95
+  Power Consumption for Basic Block 6: 320
+  Power Consumption for Basic Block 7: 475
+  Power Consumption for Basic Block 8: 1400
+  Power Consumption for Basic Block 9: 35
+  Power Consumption for Basic Block 10: 15
+  Power Consumption for Basic Block 11: 95
+  Power Consumption for Basic Block 12: 180
+  Power Consumption for Basic Block 13: 135
+  Power Consumption for Basic Block 14: 114
+  Power Consumption for Basic Block 15: 14
